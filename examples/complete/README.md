@@ -2,7 +2,7 @@ This is complete config to work with this module.
 
 
 USAGE
-'''
+```
 provider "aws" {
   region = "us-east-1"
 }
@@ -35,4 +35,4 @@ module "vpc" {
     }
   }
 }
-'''
+```

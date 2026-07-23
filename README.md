@@ -12,7 +12,7 @@ This Terraform module creates an AWS VPC with a given CIDR block. It also create
 -Sets up route tables for public subnets
 
 ## Usage
-'''
+```
 module "vpc" {
   source = "./module/vpc"
 
@@ -41,4 +41,4 @@ module "vpc" {
     }
   }
 }
-'''
+```
